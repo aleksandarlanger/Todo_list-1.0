@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  background: #4ca1af;
+  background: -webkit-linear-gradient(to right, #c4e0e5, #4ca1af);
+  background: linear-gradient(to right, #c4e0e5, #4ca1af);
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+#removeTask {
+  margin-left: 1em;
+}
+
+.container {
+  width: 40%;
+  top: 50%;
+  left: 50%;
+  background: rgb(252, 252, 252);
+  border-radius: 10px;
+  min-width: 450px;
+  position: absolute;
+  min-height: 100px;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.todo--add {
+  text-align: center;
+}
+
+.todo--input {
+  margin: 2em;
+  min-width: 80%;
+  padding: 1em;
+}
+
+.todo--list {
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  margin-top: 10px;
+}
+
+#input--box {
+  border: 0;
+  min-width: 20em;
+  min-height: 2.5em;
+  border-radius: 5px;
+  outline: none;
+  padding: 0 1em 0 1em;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  box-shadow: rgba(0, 0, 0, 0.459) 0px 1px 2px 0px inset;
+}
+
+#input--box:focus {
+  box-shadow: rgba(0, 0, 0, 0.705) 0px 1px 2px 0px inset;
+}
+
+#addTodo {
+  height: 2.5em;
+  width: 2.5em;
+  background-color: rgba(204, 228, 248, 0.377);
+  border-radius: 3px;
+}
