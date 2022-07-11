@@ -17,10 +17,6 @@ ul {
   list-style: none;
 }
 
-#removeTask {
-  margin-left: 1em;
-}
-
 .container {
   min-width: 30%;
   min-height: 300px;
@@ -48,7 +44,6 @@ ul {
   border-radius: 10px;
   width: 100%;
   position: relative;
-  background-color: #fcfcfc;;
   padding: 30px 20px;
   margin-top: 10px;
 }
